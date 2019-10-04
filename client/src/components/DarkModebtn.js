@@ -9,7 +9,7 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar">
-      <h1>United States Women's National Team'</h1>
+      <h1>Most Popular Players from the 2019 Women's World Cup</h1>
       <div className="dark-mode__toggle">
         <div
           onClick={toggleMode}

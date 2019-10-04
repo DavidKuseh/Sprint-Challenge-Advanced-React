@@ -1,13 +1,21 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const Player = styled.div`
+    background-color: #347FC4;
+    width: 230px;
+    margin: 60px;
+    padding: 15px;
+    border-radius: 20px;
+`
 
 const PlayerCard = props => {
     return (
-        <div>
+        <Player>
             <h2>{props.player.name}</h2>
-            <p>{props.player.country}</p>
-            <p>{props.player.searches}</p>
-            <p>{props.player.id}</p>
-        </div>
+            <p>Country: {props.player.country}</p>
+            <p>Search hits: {props.player.searches}</p>
+        </Player>
     )
 }
 
