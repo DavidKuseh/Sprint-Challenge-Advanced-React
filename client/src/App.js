@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import axios from 'axios';
 import PlayerList from './components/PlayerList';
-import NavBar from './components/DarkModebtn';
+import DarkMode from './components/DarkModebtn';
 
 class App extends React.Component {
   constructor () {
@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <DarkMode />
         <PlayerList players={this.state.players}/>
       </div>
     )
