@@ -25,6 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h1>Most Popular players from 2019 Women's World Cup</h1>
         <DarkMode />
         <PlayerList players={this.state.players}/>
       </div>
